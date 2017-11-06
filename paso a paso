@@ -1,0 +1,6 @@
+1.- Llamar en Js a los elementos en HTML que necesitaremos para crear la interacción (como buttons o textareas y lo hacemos con los document.getElements)
+2.- Crear todos los elementos dinámicos que necesitaremos (Nodos elemento o texto)
+3.- Añadir atributos a los elementos creados (ejemplo, darle una clase a un elemento)
+4.- Si tenemos nodos de texto, añadirlos como hijos de nodos elemento ya creados
+5.- Añadir los nodos elemento al que será su elemento padre (que ya se encuentra creado en HTML)
+Todos estos pasos pueden ser encapsulados en una función, que puede ser llamada en html con onclick u otro evento. O puede ejecutarse con addEventListener

@@ -1,0 +1,77 @@
+body{
+	width: 100%;
+	margin: 0px; 
+	border: 0px;
+	background-color: silver;
+}
+header{
+	width: 100%;
+	height: 10%;
+	color: white;
+	font-family: 'Coming Soon';
+	font-size: 22px;
+	padding-top: 2%; 
+	text-align: center;
+	background-color: teal; 
+}
+.infoleft{
+	width: 33%;
+	height: 30%;
+	padding: 2%;
+	margin: 1px 4px 10px 90px;
+	background-color: white;
+	position: absolute;
+	top: 20%;
+}
+p{
+	margin-bottom: 20%;
+}
+a{
+	text-decoration: none;
+	color: blue;
+}
+.container2{
+	width: 38%;
+	height: 40%;
+	margin: 1px 4px 10px 90px;
+	background-color: white;
+	position: absolute;
+	right: 11%;
+	top: 20%;
+}
+.txt{
+	width: 75%;
+	height: 40%; 
+	border: 0px;
+	text-decoration: none;
+	padding-top: 0%;
+	size: 140;
+	margin: 5%;
+	border-bottom: 1px solid gray;
+}
+#btn{
+	width: 20%;
+	background-color: teal;
+	color: white;
+	font-family: 'Coming Soon';
+	position: absolute;
+	top: 65%;
+	left: 5%;
+	padding: 5px;
+	border-radius: 15%;
+}
+.newdiv{
+	width: 75%;
+	height: 10%; 
+	padding: 15px;
+	background-color: white;
+	position: absolute;
+	font-family: 'Coming Soon';
+	font-size: 16px;
+	left: 8%;
+	top: 70%;
+	border-radius: 4%;
+	margin: 1%;
+}
+
+
