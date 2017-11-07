@@ -15,8 +15,9 @@
 		<a href="">CÓDIGO</a>
 	</section>
 	<section class="container2">
-		<textarea class="txt" id="comment" placeholder="¿Qué estás pensando?"></textarea>
-		<button id="btn" onclick="add()">TWEET</button>
+		<textarea class="txt" id="tweet" placeholder="¿Qué estás pensando?" onKeyDown="limit()"></textarea>
+		<button type= "button" id="btn" onclick="add()">TWEET</button>
+		<p id="inp" onKeyDown="limit()">140</p>
 	</section>
 	<div id="cont"></div>
 	<script src="assets/js/app.js"></script>
