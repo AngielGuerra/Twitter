@@ -30,7 +30,8 @@ a{
 	text-decoration: none;
 	color: blue;
 }
-.container2{
+#container2{
+	color: auto;
 	width: 38%;
 	height: 40%;
 	margin: 1px 4px 10px 90px;

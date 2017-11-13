@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Twitter</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
-	<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Twitter</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet">
 </head>
+
 <body>
-	<header>Twitter</header>
-	<section class="infoleft">
-		<h3>Reto de código</h3>
-		<p>Hola, <br>soy front-end developer jr.</p>
-		<a href="">CÓDIGO</a>
-	</section>
-	<section class="container2">
-		<textarea class="txt" id="tweet" placeholder="¿Qué estás pensando?" onKeyDown="limit()"></textarea>
-		<button type= "button" id="btn" onclick="add()">TWEET</button>
-		<p id="inp" onKeyDown="limit()">140</p>
-	</section>
-	<div id="cont"></div>
-	<script src="assets/js/app.js"></script>
+    <header>Twitter</header>
+    <div class="infoleft">
+        <h3>Reto de código</h3>
+        <p>Hola, <br>soy front-end developer jr.</p>
+        <a href="">CÓDIGO</a>
+    </div>
+    <div id="container2">
+        <textarea class="txt" id="tweet" placeholder="¿Qué estás pensando?" onKeyUp="limit()"></textarea>
+        <button type= "button" id="btn" onclick="add()">TWEET</button>
+        <p id="inp">140</p>
+    </div>
+    <div id="cont"></div>
+    <script src="assets/js/app.js"></script>
 </body>
 </html>
